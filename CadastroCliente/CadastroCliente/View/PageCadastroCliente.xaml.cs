@@ -69,13 +69,13 @@ namespace CadastroCliente.View
 
         private void Editar_Clicked(object sender, EventArgs e)
         {
-            this._cliente = this.Lista.ItemsSource as Cliente;
+            this._cliente = this.Lista.SelectedItem as Cliente;
             if(this._cliente != null)
             {
                 this.Nome.Text = this._cliente.Nome;
                 this.Cpf.Text = this._cliente.Cpf;
                 this.Email.Text = this._cliente.Email;
-                this.Telefone.Text = this._cliente.Telefone;
+                this.Telefone.Text = _cliente.Telefone;
                 
             }
         }
