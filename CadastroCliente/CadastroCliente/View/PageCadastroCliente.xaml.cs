@@ -64,6 +64,7 @@ namespace CadastroCliente.View
             this.Cpf.Text = "";
             this.Email.Text = "";
             this.Telefone.Text = "";
+            this._cliente = null;
         }
 
         private void Editar_Clicked(object sender, EventArgs e)
@@ -75,6 +76,7 @@ namespace CadastroCliente.View
                 this.Cpf.Text = this._cliente.Cpf;
                 this.Email.Text = this._cliente.Email;
                 this.Telefone.Text = this._cliente.Telefone;
+                
             }
         }
 

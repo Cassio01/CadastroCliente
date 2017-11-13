@@ -19,7 +19,7 @@ namespace CadastroCliente.Model
 
         public override string ToString()
         {
-            return string.Format("Nome={0}", "CPF={1}", "Email={2}", "Telefone={3}", Nome, Cpf, Email, Telefone);
+            return string.Format("Nome={0}, CPF={1}, Email={2}, Telefone={3}", Nome, Cpf, Email, Telefone);
         }
     }
 }
