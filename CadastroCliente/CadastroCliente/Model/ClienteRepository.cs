@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using SQLite;
+using SQLite.Net;
 
 namespace CadastroCliente.Model
 {
